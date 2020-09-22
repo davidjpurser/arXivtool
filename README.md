@@ -6,6 +6,7 @@ Tool to prepare directory for arXiv
 * expands `filename.tex` into it, including the bibliography, removing comments
 * moves graphics files into the folder (probably doesn't work if they're not supposed to be in the same folder as filename.tex) 
 * assumes `filename.bbl` is stored in `tmp` folder relative to the `filename.tex`
+* moves `lipics` like things to the folder too.
 
 
 Usage
