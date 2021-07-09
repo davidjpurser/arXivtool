@@ -9,6 +9,11 @@ Tool to prepare directory for arXiv
 * moves `lipics` like things to the folder too.
 
 
+# LIPIcs
+
+Does everything above, but doesn't expand the bibliography into the file (since LIPIcs requires a bib file). 
+Instead it makes a new `refs.bib` from the existing aux file. So make sure final paper uses `refs.bib` and not `ref.bib` or `biblio.bib` or any `myproject.bib`.
+
 Usage
 -----
 
